@@ -1,0 +1,112 @@
+
+
+body {
+	width: 50%;
+	margin: 0 0 0 20%;
+	background: #7f8c8d;
+}
+
+* {
+	line-height: 1.5em;
+}
+
+.top {
+	color: white;
+	background: #2ecc71;
+	padding: 200px 10px 0px 10px;
+	border-bottom: #27ae60 10px solid;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+.navbar {
+	width: 50%;
+	background: #34495e;
+	border-bottom: #2c3e50 10px solid;
+	padding: 0;
+
+	position: absolute;
+}
+
+.navbar ul {
+	float: right;
+}
+.nav li {
+	background: #34495e;
+	display: inline-block;
+	list-style: none;
+	text-transform: uppercase;
+	padding: 0 20px 0 0;
+	color: white;
+}
+
+.sidebar {
+	position: fixed;
+	bottom: 10%;
+	right: 10%;
+	background: #ecf0f1;
+	padding: 10px;
+	margin-left: 105%;
+	width: 200px;
+	border-bottom: #2c3e50 10px solid;
+}
+.sidebar ul {
+	margin-top: -10px;
+}
+.sidebar li {
+	color: gray;
+	list-style: none;
+	margin-left: -20px;
+}
+
+.content {
+	margin-top: 65px;
+	width: 50%;
+	position: absolute;
+	background: #ecf0f1;
+
+}
+
+.content h2 {
+	padding: 20px;
+}
+
+.content h3 {
+	border-bottom: #7f8c8d solid 1px;
+	padding: 10px;
+	margin: 0 20px 20px 20px;
+}
+
+.content p {
+	margin: 0 50px 50px 50px;
+}
+
+.content table {
+	margin: 0 20px 20px 20px;
+	border: 1px solid gray;
+	border-collapse: collapse;
+}
+
+.content table th, .content table td {
+	border: 1px solid gray;
+	padding: 8px;
+}
+
+.content table th {
+	text-align: left;
+	background: #bdc3c7;
+	font-weight: bold;	
+}
+
+button {
+	padding: 5px 25px 5px 25px;
+	color: white;
+	background: #3498db;
+	border-style: none;
+}
+
+.codebox {
+	color: #2c3e50;
+	background: #bdc3c7;
+	padding: 25px 50px 25px 50px;
+	margin: 0 20px 20px 20px;
+}
