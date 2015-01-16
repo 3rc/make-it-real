@@ -10,7 +10,12 @@ body {
 	line-height: 1.5em;
 }
 
+a {
+	text-decoration: none;
+	color: #d35400;
+}
 .top {
+	margin-top: 20px;
 	color: white;
 	background: #2ecc71;
 	padding: 150px 10px 0px 10px;
@@ -169,8 +174,8 @@ h5+* {
 .comments img {
 	float: left;
 	overflow: hidden;
-	padding:10px;
-	margin:10px;
+	padding: 10px;
+	margin: 10px 10px 10px 40px;
 }
 
 .comments strong, .comments time {
@@ -178,8 +183,28 @@ h5+* {
 
 }
 
+.comments time {
+	font-style: italic;
+	color: gray;
+}
+.comment {
+	margin: 25px 25px 25px 0px;
+	display: inline-block;
+	clear: left;
+
+}
+
 .reply {
-	margin-left: 20%;
+	margin: 0 0 0 10%;
 	border-left: solid 2px gray;
-	padding: 0 10px 0 0;
+	padding: -20px;
+}
+
+.comment p {
+	display: block;
+	clear: left;
+}
+
+.comment div {
+	margin-top: 20px;
 }
